@@ -1,0 +1,68 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.character{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    padding: 10px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    border: solid black 5px;
+    transition: 0.1s;
+}
+.characterCorrect{
+    border: solid rgb(35, 192, 35) 10px;
+    color: rgb(35, 192, 35);
+    transition: 0.1s;
+}
+.characterWrong{
+    border: solid rgb(211, 52, 31) 10px;
+    color: rgb(211, 52, 31);
+    transition: 0.1s;
+}
+
+.flex-container1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    width: 50%;
+}
+.flex-child {
+    flex: 1;
+}  
+.flex-child:first-child {
+    margin-right: 10px;
+    text-align: right;
+} 
+
+.flex-container2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(36, 163, 36);
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    bottom: 75px;
+    left: 12px;
+    width: 50%;
+}
+.flex-child2 {
+    flex: 1;
+}  
+.flex-child2:first-child {
+    margin-right: 3px;
+    text-align: right;
+} 

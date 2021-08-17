@@ -1,0 +1,38 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+.startBtn {
+    border: none;
+    color: white;
+    background-color: #52b42e;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+}
+.startBtn:hover{
+    background-color: #83fd56;
+}
+.startBtnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.startBtnLink{
+    color: inherit;
+    text-decoration: none;
+}
+
