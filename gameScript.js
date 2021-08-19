@@ -23,7 +23,7 @@ function runGame(){
     document.getElementById('c').innerHTML = randomChar;
     var startTime = Date.now();
     var points = 0;
-    var delay = getRandomInt(1000, 2000);
+    var delay = getRandomInt(1500, 3000);
 
     document.onkeypress = function (event) {
         while (charDiv.classList.length > 0) {
