@@ -66,3 +66,9 @@ h1{
     margin-right: 3px;
     text-align: right;
 } 
+
+
+body{
+    background-image: url("https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg");
+    background-size: cover;
+}
